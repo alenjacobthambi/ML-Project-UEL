@@ -7,7 +7,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression, Lasso
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.svm import SVR
-from rpy2.robjects.packages import importr
 
 # Activate the conversion rules for rpy2.robjects
 
