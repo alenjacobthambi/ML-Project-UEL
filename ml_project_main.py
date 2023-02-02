@@ -23,7 +23,7 @@ if page == "SALARY PREDICTION":
     st.markdown("#### SALARY PREDICTION SYSTEM")
     st.markdown("")
     st.markdown("")
-    salary_data_df = pd.read_csv("C:\\Users\\alenj\\Desktop\\ml_project\\Salary_Data.csv")
+    salary_data_df = pd.read_csv("Salary_Data.csv")
     work_exp = st.slider("Choose your Working Experience",min_value=float(0.0), max_value=float(12.0))
 
     X = salary_data_df.iloc[:, :-1].values
@@ -62,7 +62,7 @@ if page == "WEIGHT PREDICTION":
     st.markdown("#### WEIGHT PREDICTION SYSTEM")
     st.markdown("")
     st.markdown("")
-    weight_height_df = pd.read_csv("C:\\Users\\alenj\\Desktop\\ml_project\\weight-height.csv")
+    weight_height_df = pd.read_csv("weight-height.csv")
     height = st.slider("Choose your Height",min_value=float(50.0), max_value=float(80.0))
     
     X = weight_height_df.iloc[:, :-1].values
